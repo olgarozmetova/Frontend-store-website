@@ -218,7 +218,7 @@ h3 {
   border: 1rem solid var(--primarioOscuro);
   background-color: transparent;
   color: var(--blanco);
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
   appearance: none;
@@ -235,4 +235,10 @@ h3 {
 .formulario__submit:hover {
   cursor: pointer;
   background-color: var(--secundarioOscuro);
+}
+
+@media (min-width: 570px) {
+  .formulario__campo {
+    font-size: 2rem;
+  }
 }
